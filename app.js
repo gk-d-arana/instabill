@@ -1,16 +1,9 @@
 const express = require('express');
-const app = express();
+const serveStatic = require('serve-static');
+app = express();
+app.use(serveStatic(__dirname + "/dist"));
+const port = 5000;
 
-
-express.static('public');
-
-//app.get * index.html in dist folder
-app.get('*', (req, res) => {
-    res.sendFile(__dirname + '/dist/index.html');
-})
-
-
-
-app.listen(3000 , ()=>{
-    console.log('Server is running on port 3000');
-})
+app.listen(port, () => {
+   console.log(`Server running at http://localhost:${port}/`);
+ });
