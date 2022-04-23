@@ -1,0 +1,22 @@
+{
+  "name": "instabill",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/gk-d-arana/instabill-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/gk-d-arana/instabill-backend/issues"
+  },
+  "homepage": "https://gitlab.com/gk-d-arana/instabill-backend#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
