@@ -19,8 +19,5 @@
   "dependencies": {
     "express": "^4.17.3",
     "serve-static": "^1.15.0"
-  },
-  "engines": {
-    "node": "16.11.1"
   }
 }
