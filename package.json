@@ -1,0 +1,26 @@
+{
+  "name": "instabill",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/gk-d-arana/instabill-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/gk-d-arana/instabill-backend/issues"
+  },
+  "homepage": "https://gitlab.com/gk-d-arana/instabill-backend#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "serve-static": "^1.15.0"
+  },
+  "engines": {
+    "node": "16.11.1"
+  }
+}
